@@ -5,14 +5,14 @@ This project involves creating a distance-time graph using an Arduino Uno and an
 ## Usage
 
 1. Upload the Arduino sketch provided (`setup.ino`) to your Arduino Uno.
-2. Run the Python script (`data_analysis.py`) on your computer to collect data from the Arduino Uno via serial communication and perform statistical analysis.
-   Launch the Streamlit app (`streamlit_app.py`) to visualize the distance-time graph and view the statistical analysis results.
+2. Run the Python script (`gui.py`) on your computer to collect data from the Arduino Uno via serial communication and perform statistical analysis.
+   Launch the Streamlit app (`gui.py`) to visualize the distance-time graph and view the statistical analysis results.
 
 ## Files
 
-- `distance_time_graph.ino`: Arduino sketch for collecting distance data and sending it over serial.
-- `data_analysis.py`: Python script for receiving data from the Arduino Uno, performing statistical analysis, and saving the results.
-- `streamlit_app.py`: Streamlit web application for visualizing the distance-time graph and displaying statistical analysis results.
+- `setup.ino`: Arduino sketch for collecting distance data and sending it over serial.
+- `gui.py`: Python script for receiving data from the Arduino Uno, performing statistical analysis, and saving the results.
+- `gui.py`: Streamlit web application for visualizing the distance-time graph and displaying statistical analysis results.
 
 ## Hardware Setup
 
